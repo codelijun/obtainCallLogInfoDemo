@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lijun.mycalllogdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/call_log_text"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:text="Hello World!"
+        android:textIsSelectable="true"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/call_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/get_data_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击将从剪贴板获取数据"/>
+
+    <Button
+        android:id="@+id/get_application_data_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击获取应用试用情况"/>
+
+</LinearLayout>
